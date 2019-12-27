@@ -1,0 +1,39 @@
+{
+    "name": "websight/l5-google-cloud-storage",
+    "description": "Laravel 5 Flysystem Google Cloud Storage Service Provider",
+    "require": {
+        "illuminate/filesystem": "~5.0.17|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*",
+        "illuminate/support": "~5.0.17|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*",
+        "cedricziel/flysystem-gcs": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "keywords": ["laravel", "laravel5", "flysystem", "lumen"],
+    "homepage": "https://github.com/websightgmbh/l5-google-cloud-storage",
+    "license": "MIT",
+    "suggest": {
+        "laravel/lumen-framework": "To test the Lumen bindings"
+    },
+    "authors": [
+        {
+            "name": "Cedric Ziel",
+            "email": "cedric@cedric-ziel.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Websight\\GcsProvider\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Websight\\GcsProvider\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
