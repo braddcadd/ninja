@@ -561,12 +561,12 @@
             "version": "v0.9.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/barryvdh/laravel-cors.git",
+                "url": "https://github.com/fruitcake/laravel-cors.git",
                 "reference": "2551489de60486471434b0c7050f7fc65f9c9119"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-cors/zipball/2551489de60486471434b0c7050f7fc65f9c9119",
+                "url": "https://api.github.com/repos/fruitcake/laravel-cors/zipball/2551489de60486471434b0c7050f7fc65f9c9119",
                 "reference": "2551489de60486471434b0c7050f7fc65f9c9119",
                 "shasum": ""
             },
@@ -1274,6 +1274,7 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
+            "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
@@ -4038,7 +4039,7 @@
             "time": "2017-06-01T20:29:30+00:00"
         },
         {
-            "name": "jeremeamia/SuperClosure",
+            "name": "jeremeamia/superclosure",
             "version": "2.3.0",
             "source": {
                 "type": "git",
@@ -4321,7 +4322,7 @@
                 "shasum": ""
             },
             "require": {
-                "illuminate/support": "~5.0",
+                "illuminate/support": "~5.0|~6.0",
                 "php": ">=5.4.0"
             },
             "require-dev": {
@@ -5224,12 +5225,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lokielse/omnipay-alipay.git",
-                "reference": "294449c11dcba9f2669666f2a3dc44cd07f7597f"
+                "reference": "0a8e30dd1c9c8cc4a4cffbc8e381a7b1284d3b95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lokielse/omnipay-alipay/zipball/294449c11dcba9f2669666f2a3dc44cd07f7597f",
-                "reference": "294449c11dcba9f2669666f2a3dc44cd07f7597f",
+                "url": "https://api.github.com/repos/lokielse/omnipay-alipay/zipball/0a8e30dd1c9c8cc4a4cffbc8e381a7b1284d3b95",
+                "reference": "0a8e30dd1c9c8cc4a4cffbc8e381a7b1284d3b95",
                 "shasum": ""
             },
             "require": {
@@ -5470,12 +5471,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/meebio/omnipay-secure-trading.git",
-                "reference": "370a79513e12db2c4c7484cf1eff331a9993bbe0"
+                "reference": "ee432c82e47c16f921091a05b6fc8d8e13234fd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/meebio/omnipay-secure-trading/zipball/370a79513e12db2c4c7484cf1eff331a9993bbe0",
-                "reference": "370a79513e12db2c4c7484cf1eff331a9993bbe0",
+                "url": "https://api.github.com/repos/meebio/omnipay-secure-trading/zipball/ee432c82e47c16f921091a05b6fc8d8e13234fd1",
+                "reference": "ee432c82e47c16f921091a05b6fc8d8e13234fd1",
                 "shasum": ""
             },
             "require": {
@@ -5520,7 +5521,7 @@
                 "secure trading",
                 "securetrading"
             ],
-            "time": "2016-12-14T14:58:56+00:00"
+            "time": "2019-08-08T08:14:55+00:00"
         },
         {
             "name": "mfauveau/omnipay-pacnet",
@@ -9319,8 +9320,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Recurr\\": "src/Recurr/",
-                    "Recurr\\Test\\": "tests/"
+                    "Recurr\\": "src/Recurr/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -9330,8 +9330,8 @@
             "authors": [
                 {
                     "name": "Shaun Simmons",
-                    "email": "shaun@envysphere.com",
-                    "homepage": "http://envysphere.com"
+                    "email": "shaun@shaun.pub",
+                    "homepage": "https://shaun.pub"
                 }
             ],
             "description": "PHP library for working with recurrence rules",
@@ -9883,16 +9883,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v3.4.6",
+            "version": "v3.4.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "12e901abc1cb0d637a0e5abe9923471361d96b07"
+                "reference": "0d201916bfb3af939fec3c0c8815ea16c60ac1a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/12e901abc1cb0d637a0e5abe9923471361d96b07",
-                "reference": "12e901abc1cb0d637a0e5abe9923471361d96b07",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/0d201916bfb3af939fec3c0c8815ea16c60ac1a2",
+                "reference": "0d201916bfb3af939fec3c0c8815ea16c60ac1a2",
                 "shasum": ""
             },
             "require": {
@@ -9950,7 +9950,7 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2018-03-04T03:54:53+00:00"
+            "time": "2019-12-01T08:33:36+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -11489,19 +11489,19 @@
                 "iso_3166_3",
                 "laravel"
             ],
-            "time": "2017-10-15T11:08:15+00:00"
+            "time": "2019-07-12T14:06:05+00:00"
         },
         {
             "name": "websight/l5-google-cloud-storage",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/hillelcoren/l5-google-cloud-storage.git",
+                "url": "https://github.com/websightgmbh/l5-google-cloud-storage.git",
                 "reference": "4bf1d928ec553fca1e7202738bc0fc7d9dc069d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hillelcoren/l5-google-cloud-storage/zipball/4bf1d928ec553fca1e7202738bc0fc7d9dc069d2",
+                "url": "https://api.github.com/repos/websightgmbh/l5-google-cloud-storage/zipball/4bf1d928ec553fca1e7202738bc0fc7d9dc069d2",
                 "reference": "4bf1d928ec553fca1e7202738bc0fc7d9dc069d2",
                 "shasum": ""
             },
@@ -12071,6 +12071,7 @@
                 "push",
                 "zf2"
             ],
+            "abandoned": true,
             "time": "2017-01-17T13:57:50+00:00"
         },
         {
@@ -12697,8 +12698,7 @@
             "authors": [
                 {
                     "name": "Chris Boulton",
-                    "homepage": "http://github.com/chrisboulton",
-                    "role": "Original developer"
+                    "homepage": "http://github.com/chrisboulton"
                 }
             ],
             "description": "A comprehensive library for generating differences between two hashable objects (strings or arrays).",
